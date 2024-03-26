@@ -116,20 +116,6 @@
 
         <dependency>
             <groupId>com.securbank</groupId>
-            <artifactId>securbank.ui.frontend</artifactId>
-            <version>${project.version}</version>
-            <type>zip</type>
-        </dependency>
-
-      <dependency>
-        <groupId>com.securbank</groupId>
-        <artifactId>securbank.ui.frontend.react.forms.af</artifactId>
-        <version>${project.version}</version>
-        <type>zip</type>
-      </dependency>
-
-        <dependency>
-            <groupId>com.securbank</groupId>
             <artifactId>securbank.ui.apps.structure</artifactId>
             <version>${project.version}</version>
             <type>zip</type>

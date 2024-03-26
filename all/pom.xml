@@ -67,12 +67,6 @@
                         </embedded>
                         <embedded>
                             <groupId>com.securbank</groupId>
-                            <artifactId>securbank.ui.content</artifactId>
-                            <type>zip</type>
-                            <target>/apps/securbank-packages/content/install</target>
-                        </embedded>
-                        <embedded>
-                            <groupId>com.securbank</groupId>
                             <artifactId>securbank.ui.config</artifactId>
                             <type>zip</type>
                             <target>/apps/securbank-packages/application/install</target>
@@ -192,12 +186,6 @@
         <dependency>
             <groupId>com.securbank</groupId>
             <artifactId>securbank.ui.apps</artifactId>
-            <version>${project.version}</version>
-            <type>zip</type>
-        </dependency>
-        <dependency>
-            <groupId>com.securbank</groupId>
-            <artifactId>securbank.ui.content</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
