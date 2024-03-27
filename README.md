@@ -1,5 +1,10 @@
 # SecurBank example foundation code for AEM Cloud Service full stack deployments
 
+## Key notes
+
+There is no front end code or content in this project. Use Quick Site Creation, or Edge Delivery Services for Front End. 
+
+
 ## Created with AEM Maven Archetype
 
     mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
