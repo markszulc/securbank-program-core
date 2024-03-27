@@ -82,6 +82,16 @@
                             <artifactId>core-forms-components-af-core</artifactId>
                             <target>/apps/securbank-vendor-packages/application/install</target>
                         </embedded>
+                        <embedded>
+                            <groupId>com.adobe.cq</groupId>
+                            <artifactId>core.email.components.all</artifactId>
+                            <target>/apps/securbank-vendor-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.cq</groupId>
+                            <artifactId>core.email.components.examples.all</artifactId>
+                            <target>/apps/securbank-vendor-packages/application/install</target>
+                        </embedded>
                                                                 </embeddeds>
                 </configuration>
             </plugin>
@@ -215,5 +225,18 @@
           <groupId>com.adobe.aem</groupId>
           <artifactId>core-forms-components-af-core</artifactId>
         </dependency>
-          </dependencies>
+
+        <dependency>
+            <groupId>com.adobe.cq</groupId>
+            <artifactId>core.email.components.all</artifactId>
+            <type>zip</type>
+            <version>${core.email.components.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.cq</groupId>
+            <artifactId>core.email.components.examples.all</artifactId>
+            <type>zip</type>
+            <version>${core.email.components.version}</version>
+        </dependency>
+    </dependencies>
 </project>
